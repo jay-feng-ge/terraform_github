@@ -15,4 +15,5 @@ variable "token" {
 # Configure the GitHub Provider
 provider "github" {
   token = var.token
+  organization = "jay-feng-org"
 }
