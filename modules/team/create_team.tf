@@ -16,3 +16,7 @@ resource "github_team" "some_team" {
   description = var.description
   privacy = var.privacy
 }
+
+output "some_team_id" {
+  value = github_team.some_team.id
+}
