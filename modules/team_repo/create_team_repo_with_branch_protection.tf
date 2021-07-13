@@ -1,3 +1,9 @@
+# imported variables from module call:
+# repo name (one)
+# team names (multiple)
+# user names (muliple)
+
+
 variable "team_name" {
   type = string
 }
