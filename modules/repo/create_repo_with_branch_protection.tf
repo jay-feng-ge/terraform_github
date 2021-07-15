@@ -11,6 +11,7 @@ variable "repo_name" {
 
 variable "description" {
   type = string
+  default = null
 }
 
 variable "visibility" {

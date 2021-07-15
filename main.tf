@@ -8,7 +8,7 @@ terraform {
 }
 
 variable "token" {
-  type = string
+  type        = string
   description = "Github OAuth Token"
 }
 

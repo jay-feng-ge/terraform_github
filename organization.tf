@@ -4,5 +4,5 @@ module "add_jay" {
   token = var.token
 
   username = "jay-feng"
-  role = "member"
+  role     = "member"
 }

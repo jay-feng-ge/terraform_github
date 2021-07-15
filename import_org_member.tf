@@ -4,5 +4,5 @@ module "add_vinayakgajjewar" {
   token = var.token
 
   username = "vinayakgajjewar"
-  role = "member"
+  role     = "member"
 }
