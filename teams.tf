@@ -1,21 +1,14 @@
-module "make_team_1" {
-  source = "./modules/team"
+# TEMPLATE
 
-  token = var.token
-
-  name        = "team_1"
-  description = "terraform test team called team_1"
-
-  usernames = ["jay-feng", "jay-feng-ge"]
-}
-
-module "make_team_2" {
-  source = "./modules/team"
-
-  token = var.token
-
-  name        = "team_2"
-  description = "terraform test team called team_2"
-
-  usernames = ["jay-feng"]
-}
+# module "make_team-name" {
+#   source = "./modules/team"
+#
+#   token = var.token
+#
+#   name        = "team-name"
+#   description = "team description"
+#
+#   usernames = ["username_1", "username_2"]
+#
+#   privacy = "secret/public"
+# }
