@@ -1,8 +1,8 @@
-module "add_jay" {
+module "add_vinayakgajjewar" {
   source = "./modules/organization_member"
 
   token = var.token
 
-  username = "jay-feng"
+  username = "vinayakgajjewar"
   role     = "member"
 }

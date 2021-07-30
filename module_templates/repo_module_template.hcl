@@ -13,8 +13,8 @@ module "$module_name" {
     teams = $teams
 
     # branch protection variables
-    branch_protections = $branch_protections
-
+    $branch_protections
+    
     # deploy key variables
     deploy_keys = $deploy_keys
 }
